@@ -1,6 +1,6 @@
-package com.bptn.course._04_arrays;
+package com.bptn.course._06_Arrays;
 
-public class Array {
+public class IndexAccess {
 
 	public static void main(String[] args) {
 		// Here's an array of high scores:
@@ -30,4 +30,5 @@ public class Array {
 		System.out.println(highScores[here - 3]); // This would print out the zeroth index because 3-3 = 0. The console will show a 10 when this line runs, as that's what's in the zeroth index.
 
 	}
+
 }
