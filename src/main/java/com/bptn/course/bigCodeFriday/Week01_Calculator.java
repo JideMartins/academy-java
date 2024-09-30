@@ -23,7 +23,7 @@ public class Week01_Calculator {
             //Read user input
             int userChoice = myScanner.nextInt();
 
-            //declares and initialises variables to store input numbers
+            //declares and initializes variables to store input numbers
             double numberOne, numberTwo;
 
             //operations based on choice
@@ -67,7 +67,7 @@ public class Week01_Calculator {
             } else if (userChoice == 5) {
                 System.out.println("Enter the number to find Square : ");
                 numberOne = myScanner.nextDouble();
-                //uses the math class nd pow method to find the square --- Math.pow(a,b)
+                //uses the math class and pow method to find the square --- Math.pow(a,b)
                 System.out.println("The Square of the number " + numberOne + " is = " + (Math.pow(numberOne, 2)));
 
             } else if (userChoice == 6) {
@@ -102,5 +102,7 @@ public class Week01_Calculator {
             myScanner.close();
             System.out.println("Calculator program ended.");
         }
+        
+        myScanner.close();
 	}
 }
