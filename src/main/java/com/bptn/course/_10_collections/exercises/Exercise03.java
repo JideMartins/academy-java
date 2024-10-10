@@ -31,6 +31,7 @@ public class Exercise03 {
 				System.out.println(str + " is not present in set2");
 			}
 		}
+		return set3;
 	}
 	
 
