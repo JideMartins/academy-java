@@ -1,4 +1,4 @@
-package com.obsidi.course._03_scanner;
+package com.bptn.course._02_scanner;
 
 public class ObjectScan {
 

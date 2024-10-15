@@ -1,4 +1,4 @@
-package com.obsidi.course._01_variables;
+package com.bptn.course._01_variables;
 
 public class VariableOperations {
 

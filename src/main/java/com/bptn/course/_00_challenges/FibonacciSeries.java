@@ -1,4 +1,4 @@
-package com.obsidi.course._00_challenges;
+package com.bptn.course._00_challenges;
 
 import java.util.Scanner;
 

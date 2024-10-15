@@ -1,4 +1,4 @@
-package com.obsidi.course._04_arrays;
+package com.bptn.course._04_arrays;
 
 import java.util.Arrays;
 
