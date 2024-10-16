@@ -1,0 +1,30 @@
+
+How to write a binary search algorithm:
+==========================================
+Compare x with the middle element.
+If x matches with the middle element, we return the mid index.
+Else If x is greater than the mid element, then x can only lie in the right half subarray after the mid element. So we perform the step again for the right half.
+Else (x is smaller), and we perform the beginning steps again for the left half.
+
+If the above doesn’t get you close enough to the answer, follow along with this in-depth pseudocode. In addition, you’re welcome to use online resources to make the algorithm, but make sure you refrain from simply copying and pasting answers. If you don’t understand the code that you’re using, you won’t learn anything. Yes, you do get points for accomplishing tasks here, but empty points will only cause you to struggle once you’re on the job.
+
+1. Let min = 0 and max = n-1 where n is the number of elements in the array.
+2. Compute the location for your guess as the average of max and min, rounded down so that it remains an integer.
+3. If array[guess] equals the target, stop. You found it! Return the index of the guess.
+4. If the guess was too low, meaning that array[guess] < target, then set min = guess + 1.
+5. Otherwise, the guess was too high. Set max = guess - 1. Go back to step 2 and try again.
+6. Continue until the value is found, or, if all of the numbers have been checked, return -1 to signal that the algorithm failed to find the number.
+
+In addition, make sure you only edit the method binarySearch(). The parameters have been created for you.
+Lastly, make sure to test your code with different values by changing the array and key values.
+Test cases:
+array = {} // empty array.
+// result = -1.
+array = {5}, key = 5; // single-element array.
+// result = 0.
+array = {5}, key = 0; // same as above.
+// result = -1.
+array = {2, 1}, key = 1; // even number of elements + unsorted.
+// result = 0.
+array = {5, 1, 4}, key = 4; // odd number of elements + unsorted.
+// result = 1.
