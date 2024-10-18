@@ -1,0 +1,6 @@
+Other letters that Java devs will use instead of T generally follow this pattern:
+E: Short for "element", used extensively by/with the Java Collections Framework.
+K: Used when defining key elements, like with Maps.
+V: Used when defining values, as seen in Maps.
+N: Used when defining elements that specifically represent number types.
+S, U, V etc: used to define additional types once you’ve used T for the first type in a generic function. These would represent 2nd, 3rd, 4th, etc. types to come after. Each would be used in different ways (and different places) throughout the given block of code.
